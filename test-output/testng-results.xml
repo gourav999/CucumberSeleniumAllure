@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="142044" started-at="2021-08-02T13:51:41 IST" finished-at="2021-08-02T13:54:03 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberwithTestNGRunner.TestngRunner@25bbf683]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="142044" started-at="2021-08-02T13:51:41 IST" finished-at="2021-08-02T13:54:03 IST">
+      <class name="CucumberwithTestNGRunner.TestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberwithTestNGRunner.TestngRunner@25bbf683]" name="setUpClass" is-config="true" duration-ms="979" started-at="2021-08-02T13:51:41 IST" finished-at="2021-08-02T13:51:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberwithTestNGRunner.TestngRunner@25bbf683]" name="runScenario" duration-ms="50977" started-at="2021-08-02T13:51:42 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-02T13:52:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title verfication of blog"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verifying the blog link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberwithTestNGRunner.TestngRunner@25bbf683]" name="runScenario" duration-ms="28407" started-at="2021-08-02T13:52:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-02T13:53:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verfication of two links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verifying the blog link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberwithTestNGRunner.TestngRunner@25bbf683]" name="runScenario" duration-ms="61547" started-at="2021-08-02T13:53:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-02T13:54:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verfication of two links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verifying the blog link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberwithTestNGRunner.TestngRunner@25bbf683]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2021-08-02T13:54:03 IST" finished-at="2021-08-02T13:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberwithTestNGRunner.TestngRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
