@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -31,6 +32,7 @@ public class CucumberHooks {
 		driver = new FirefoxDriver();
 
 	}
+
 
 	@After
 	public void tearDown(Scenario scenario) {

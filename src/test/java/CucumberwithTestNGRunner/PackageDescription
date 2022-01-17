@@ -3,7 +3,7 @@ This package CucumberwithTestNGRunner is very simple.
 2. Creaetd one step definiation
 3. added dependcy in pom files.
 4. added hooks before and after.
-5. created testng runner class file and executed it.
+5. created testng runner class file and executed it.on testng i have added abstracttestngCucumberTest. 
 
 Note: No allure reporting. No parallel running, even if  you are will try to run test cases will be start executing 
 one by one. 
