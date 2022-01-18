@@ -36,7 +36,11 @@ public class CucumberHooks {
 
 	@After
 	public void tearDown(Scenario scenario) {
+		System.out.println("after is called");
 		driver.close();
+		driver.quit();
 	}
+	
+	
 
 }
